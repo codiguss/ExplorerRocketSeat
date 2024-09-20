@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  background: #BFD7E4;
+  ;
+}
+
+legend {
+  font-family: "Staatliches", sans-serif;
+  color: #253B51;
+  font-size: 24px;
+  
+  text-align: center;
+}
+
+header{
+  height: 432px;
+
+  background: #293241;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: white;
+  margin-top: 107px;
+  line-height: 45px;
+  margin-bottom: 0;
+}
+
+header p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+margin-top: 0;
+}
+  
+
+header div {
+  background: #F67669;
+  width: 761px;
+
+  position: static;
+  
+
+  height: 113px;
+
+  border-radius: 20px 20px 0 0;
+
+  text-align: center;
+  
+  
+}
+
+header div p {
+  padding-top: 43px;
+  font-size: 24px;
+  font-family: "Staatliches", sans-serif;
+  color: white;
+}
+
+header img {
+width: 225px;
+margin-bottom: 32px;
+
+
+}
+
+#my-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+fieldset {
+  background: white;
+  border: none;
+  border-radius: 0 0 20px 20px;
+
+  width: 622px;
+  margin-top: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+  padding: 30px 64px 64px;
+
+  margin-bottom: 392px;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label{
+  font-family: "Poppins", sans-serif;
+
+  margin-bottom: 7px;
+}
+
+.input-wrapper label span{
+color: rgb(188, 188, 188);
+}
+
+.input-wrapper input, select {
+  height: 55px;
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+.input-wrapper textarea {
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+.checkbox-wrapper {
+  position: relative;
+}
+
+.checkbox-wrapper label {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 6px;
+  gap: 16px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.checkbox-wrapper input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  
+}
+
+
+
+
+
+#name {
+  display: flex;
+  gap: 22px;
+}
+
+#name input {
+  width: 300px;
+}
+
+#col-3 {
+  display: flex;
+  gap: 10px;
+
+  margin-bottom: 64px;
+}
+
+#col-3 .input-wrapper #date {
+  width: 300px;
+
+  align-items: center;
+}
+
+#col-3 .input-wrapper #event-begin, #event-end {
+  width: 140px;
+}
+
+
+.button {
+  height: 51px;
+  width: 622px;
+
+  border-radius: 8px;
+
+  background: #F67669;
+  border: none;
+
+  color: white;
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+}
+

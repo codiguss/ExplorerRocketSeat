@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: black;
+  background-image: url(/assets/universo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "Roboto", sans-serif;
+  
+}
+
+header {
+  padding: 4rem 7.2rem;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav img {
+  width: 4.973rem;
+}
+
+.box {
+  margin: 1rem 4rem;
+}
+
+.box a {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #C4C4CC;
+  margin-left: 4rem;
+  transition: color 0.7s;
+}
+
+.box a:first-child {
+  margin-left: 0rem;
+}
+
+.box a:hover {
+  color: white;
+  font-weight: bold;
+  font-size: 2.35rem;
+}
+
+/* DEMAIS PÁGINAS */
+
+.main2 {
+  display: block;
+  width: 64.8rem;
+  margin: 18.5rem 10.2rem;
+}
+
+.main2 h2 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  color: #E1E1E6   ;
+}
+
+.main2 p {
+  font-family: "Roboto", sans-serif;
+  color: #E1E1E6; 
+  font-size: 1.8rem;
+  line-height: 160%;  
+}
